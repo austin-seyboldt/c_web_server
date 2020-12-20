@@ -1,6 +1,5 @@
 ## HTTP/1.1 Multithreaded Server
-Austin Seyboldt, CSE130  
-  
+ 
 ### Instructions
   
 The program can be run in the terminal with the command "./httpserver". It requires at least one argument, the port number, which is a port number between 1024 - (2^16-1). In addition, two options may be provided: "-N" followed by the number of worker threads to use; "-l" followed by the name of the log file to log requests to. If the thread number is ommitted, the program uses the default value of 4. If the log file is ommitted then no logging is performed.  
